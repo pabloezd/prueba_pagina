@@ -118,7 +118,6 @@ text-align: center;
 font-family: 'Dosis', sans-serif;
 margin-left: 10px;
 margin-right: 10px;
-background-image: linear-gradient(to top, grey, white);
 }
                             
 .texto-2 a { 
@@ -158,7 +157,6 @@ table{
 font-family: 'Dosis', sans-serif;
 margin-left: 10px;
 margin-right: 10px;
-background-image: linear-gradient(to top, grey, white);
 }
                             
 fieldset{
