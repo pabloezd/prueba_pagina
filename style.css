@@ -113,12 +113,26 @@ margin-bottom: 10px;
 footer{
 text-align: center;
 }
-
+/* animacion */
 .texto-1{
 font-family: 'Dosis', sans-serif;
 margin-left: 10px;
 margin-right: 10px;
+animation-duration: 2s;
+animation-name: aparecer;
+animation-iteration-count: infinite;
 }
+
+@keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+ 
+ /* fin animacion */
                             
 .texto-2 a { 
 font-family: 'Dosis', sans-serif;
@@ -138,13 +152,15 @@ display: inline;
 height: 200px;
 width: 200px;
 }
-                            
+    
+/* transformacion */
 .logo{
 display: block;
 margin-left: auto;
 margin-right: auto;
 height: 100px;
 width: 100px;
+transform: rotate(180deg);
 }
                             
 iframe{
@@ -152,11 +168,13 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 }
-                            
+
+/* gradiente */
 table{
 font-family: 'Dosis', sans-serif;
 margin-left: 10px;
 margin-right: 10px;
+background-image: linear-gradient(to top, grey, white);
 }
                             
 fieldset{
